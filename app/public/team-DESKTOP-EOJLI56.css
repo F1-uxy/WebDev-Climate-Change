@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Moon-Regular;
+    src: url(Moon-Regular.otf);
+}
+
+body {
+    background-color: rgba(20, 20, 20, 1);
+    margin: 0px;
+    overflow: hidden
+}
+
+.profile-image {
+    position: absolute;
+    width: 25vw;
+    border-radius: 5px;
+
+	transition: all 400ms ease;
+}
+
+#arthur-img {
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.img-name-tag {
+    position: absolute;
+    font-family: Moon-Regular;
+    color: white;
+    
+	transition: all 400ms ease;
+    font-size: 4vw;
+}
+
+#arthur-tag {
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 0);
+}
+
+.personal-desc {
+    position: absolute;
+}

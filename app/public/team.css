@@ -1,0 +1,252 @@
+
+@font-face {
+    font-family: Moon-Regular;
+    src: url(Moon-Regular.otf);
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+    margin: 0px;
+    overflow: hidden
+}
+
+.profile-image {
+    position: absolute;
+    height: 55vh;
+    /* top: 0vh; */
+    /* bottom: 45vh; */
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 0px #000000;
+
+	/* transition: all 200ms ease; */
+    transition: all 300ms cubic-bezier(1, 0, 0.3, 1.5);
+    transform: scale(0.9);
+    cursor: pointer;
+    z-index: 2;
+    max-width: 33vw;
+    /* overflow: hidden; */
+    object-fit: cover;
+}
+.profile-image:hover, .img-name-tag:hover ~ .profile-image {
+    transform: scale(0.95);
+    
+    height: 66vh;
+    /* top: 0vh; */
+    /* bottom: 34vh; */
+    box-shadow: 0px 0px 5px 2px #3a3a3a;
+}
+
+#arthur-img {
+    position: absolute;
+    left: 50vw;
+    /* margin: auto; */
+    translate: -50%;
+}
+
+#left-img {
+    position: absolute;
+    left: 16.66vw;
+    margin: auto;
+    translate: -50%;
+}
+
+#right-img {
+    position: absolute;
+    left: 83.33vw;
+    margin: auto;
+    translate: -50%;
+}
+
+.img-name-tag {
+    position: absolute;
+    font-family: Moon-Regular;
+    color: white;
+    z-index: 3;
+    
+	transition: all 200ms ease;
+    font-size:  6vh;
+    top: 50vh;
+    cursor: pointer;
+
+    text-shadow: 0px 0px 5px black;
+    white-space: nowrap;
+}
+
+#arthur-tag {
+    left: 50%;
+    translate: -50%;
+}
+#left-tag {
+    left: 16.66%;
+    translate: -50%;
+}
+#right-tag {
+    left: 83.33%;
+    translate: -50%;
+}
+
+.team-desc-box {
+    position: absolute;
+    top: 70vh;
+    left: 35vh;
+    height: 25vh;
+    width: calc(100vw - 70vh);
+
+    background-color: rgb(25, 25, 25);
+    box-shadow: 0px 0px 5px 0px #353535;
+    border-radius: 5px;
+
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size:  3vmin;
+    color: white;
+    display: inline-block;
+}
+
+p {
+    padding: 1vw;
+}
+
+.personal-desc-box {
+    position: absolute;
+    top: 110vh;
+    left: 7vw;
+    height: 25vh;
+    width: 86vw;
+    
+    background-color: rgb(25, 25, 25);
+    box-shadow: 0px 0px 5px 0px #353535;
+    border-radius: 10px;
+
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 3.5vmin;
+    color: white;
+    /* display: inline-block; */
+	transition: all 600ms cubic-bezier(.68,-0.55,.27,1.55);
+
+    z-index: 5;
+}
+
+.personal-desc {
+    padding-left: 4%;
+    padding-right: 4%;
+    /* padding-top: 4%;
+    padding-bottom: 4%; */
+    /* padding: 0% 10%; */
+}
+
+.profile-image:hover ~ #left-desc, .img-name-tag:hover ~ #left-desc {
+    top: 70vh;
+    rotate: -2deg;
+}
+.profile-image:hover ~ #arthur-desc, .img-name-tag:hover ~ #arthur-desc {
+    top: 70vh;
+    rotate: 2deg;
+}
+.profile-image:hover ~ #right-desc, .img-name-tag:hover ~ #right-desc {
+    top: 70vh;
+    rotate: -2deg;
+}
+
+h1 {
+    /* position: relative; */
+    font-size: 10vh;
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+
+    background-color: rgb(25, 25, 25);
+    box-shadow: 0px 0px 5px 0px #353535;
+    border-radius: 10px;
+    transition: all 300ms cubic-bezier(1, 0, 0.3, 1.5),
+        color 300ms ease;
+}
+
+#home-icon {
+    position: absolute;
+    top: 70vh;
+    left: 5vh;
+    height: 25vh;
+    width: 25vh;
+
+    transform: scale(0.75);
+    color: rgb(40, 40, 40); 
+}
+#signup-icon {
+    position: absolute;
+    top: 70vh;
+    right: 5vh;
+    height: 25vh;
+    width: 25vh;
+
+    transform: scale(0.75);
+    color: rgb(40, 40, 40); 
+}
+
+#home-icon:hover, #signup-icon:hover {
+    transform: scale(1);
+    color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .team-desc-box {
+        position: absolute;
+        top: 70vh;
+        left: 20vh;
+        height: 25vh;
+        width: calc(100vw - 40vh);
+    
+        background-color: rgb(25, 25, 25);
+        box-shadow: 0px 0px 5px 0px #353535;
+        border-radius: 5px;
+    
+        text-align: center;
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size:  4vw;
+        color: white;
+        display: inline-block;
+    }
+
+    .button {
+        position: absolute;
+    
+        background-color: rgb(25, 25, 25);
+        box-shadow: 0px 0px 5px 0px #353535;
+        border-radius: 10px;
+    }
+    
+    #home-icon {
+        position: absolute;
+        top: 80vh;
+        left: 5vh;
+        height: 10vh;
+        width: 10vh;
+    
+        transform: scale(0.75);
+        color: rgb(40, 40, 40); 
+    }
+    #signup-icon {
+        position: absolute;
+        top: 80vh;
+        right: 5vh;
+        height: 10vh;
+        width: 10vh;
+    
+        transform: scale(0.75);
+        color: rgb(40, 40, 40); 
+    }
+
+    h1 {
+        font-size: 4vh;
+    }
+
+    .img-name-tag {
+        font-size:  5vw;
+    }
+
+}

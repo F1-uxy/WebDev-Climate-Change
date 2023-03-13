@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Monitoring People :: Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a8db37ebb0.js" crossorigin="anonymous"></script>
+    <script src="menuIcon.js" defer></script>
+    <script src="form.js" defer></script>
+</head>
+<body>
+
+    <div id="wrapper">
+    
+        <header>
+            <h1>Climate Monitoring People</h1>
+            <h2>Climate Change has Arrived</h2>
+            <h3>The world is now experiencing the dangerous impacts of a rapidly heating climate. </h3>
+
+
+            <a id="menuIcon">
+                <i class="fa-solid fa-backward"></i>
+            </a>
+        </header>
+
+        <nav id="mainNav">
+            <ul class="mainNav">
+                <li class="navActive"><a href="index.html">Home</a></li>
+                <li class="nav"><a href="team.html">The Team</a></li>
+                <li class="nav"><a href="signUp.html">Sign Up</a></li>
+                <li class="nav"><a href="learnMore.html">Learn More</a></li>
+                <li class="nav"><a href="settings.html"><i class="fa-solid fa-gear"></i></a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="imagerow">
+                <a href="globalpicture.html">
+                    <button class="buttons">
+                        <figure>
+                            <img src="GlobalPicture.jpg">
+                            <figcaption>
+                                <h2>The Global Picture</h2>
+                                <p>Click to learn more</p>
+                            </figcaption>
+                        </figure>
+                    </button>
+                </a> 
+                <a href="overallprogress.html">
+                    <button class="buttons">
+                        <figure>
+                            <img src="OverallProgress.jpg">
+                            <figcaption>
+                                <h2>Overall Progress</h2>
+                                <p>Click to learn more</p>
+                            </figcaption>
+                        </figure>
+                    </button>
+                </a>
+                <a href="crosscuttingissues.html">
+                    <button class="buttons">
+                        <figure>
+                            <img src="CrosscuttingIssues.jpg">
+                            <figcaption>
+                                <h2>Cross-Cutting Issues</h2>
+                                <p>Click to learn more</p>
+                            </figcaption>
+                        </figure>
+                    </button>
+                </a>
+            </div>
+
+            <div>
+                <p class="form">Required information is marked with an asterisk</p>
+                <form action="" method="post" id="form">
+                    <fieldset>
+                        <legend>
+                            Contact Form
+                            <i class="fa-regular fa-message"></i>
+                        </legend>
+
+                        <label for="name">Name* :</label>
+                        <input type="text" id="name" name="name" size="10" aria-required="true" placeholder = "Your Name" required>
+
+                        <label for="email">Email* :</label>
+                        <input type="email" id="email" name="email" aria-required="true" placeholder="Your Email" required>
+
+                        <label for="message">Message* :</label>
+                        <textarea type="text" id="message" name="message" rows="5" cols="33"
+                            aria-required="true" required></textarea>
+
+                        <button id="submit">
+                            Send Now
+                            <i class="fa-solid fa-angles-right"></i>
+                        </button>
+                    </fieldset>
+                </form>
+            </div>
+
+            <div id="formConfirmation">
+
+            </div>
+        
+        </main>
+
+        <footer>
+            <p>Copyright &copy;2022 Climate Monitoring People</p>
+            
+            <div id="emailLinks">
+                <a href="mailto:C.Flux@uea.ac.uk">Charlie Flux</a>
+                <a href="mailto:L.Young@uea.ac.uk">Lily Young</a>
+                <a href="mailto:Arthur.Clarke@uea.ac.uk">Arthur Clarke</a>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>

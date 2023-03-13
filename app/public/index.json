@@ -1,0 +1,94 @@
+{"menuItems" : [
+    {
+        "href" : "team.html",
+        "className" : "menu-item",
+        "idName" : "main",
+        "iconClass" : "fa-solid fa-user",
+        "title" : "&ensp;Meet The Team"
+    },
+    {
+        "href" : "sign-up.html",
+        "className" : "menu-item",
+        "idName" : "main",
+        "iconClass" : "fa-solid fa-envelope",
+        "title" : "&ensp;Sign Up"
+    },
+    {
+        "href" : "learnMore.html",
+        "className" : "menu-item",
+        "idName" : "main",
+        "iconClass" : "fa-solid fa-envelope",
+        "title" :"&ensp;Learn More"
+    }
+],
+"chapters" : [
+    {
+        "href" : "globalpicture.html",
+        "className" : "menu-item",
+        "idName" : "from-content",
+        "title" : "The Global Picture"
+    },
+    {
+        "href" : "overallprogress.html",
+        "className" : "menu-item",
+        "idName" : "from-content",
+        "title" : "Overall Progress"
+    },
+    {
+        "href" : "crosscuttingissues.html",
+        "className" : "menu-item",
+        "idName" : "from-content",
+        "title" : "Cross Cutting Issues"
+    }
+
+],
+
+"images" : [
+    {
+        "idName" : "img-global-picture",
+        "imageSource" : "images/GlobalPicture.jpg"
+    },
+    {
+        "idName" : "img-overall-progress",
+        "imageSource" : "images/OverallProgress.jpg"
+    },
+    {
+        "idName" : "img-cross-cutting-issues",
+        "imageSource" : "images/CrosscuttingIssues.jpg"
+    }
+
+],
+
+"containerBottomRight" : [
+    {
+        "idName" : "content-desc",
+        "className" : "bottom-right",
+        "content" : "View content available"
+    },
+    {
+        "idName" : "team-desc",
+        "className" : "bottom-right",
+        "content" : "See the team members that made this webpage"
+    },
+    {
+        "idName" : "signup-desc",
+        "className" : "bottom-right",
+        "content" : "Don't want to miss out \n on the latest News? \n Join our mailing list!"
+    },
+    {
+        "idName" : "learn-desc",
+        "className" : "bottom-right",
+        "content" : "Link to the original document \n this webpage was created from"
+    }
+],
+
+"containerTopRight" : [
+    {
+        "className" : "top-right-1",
+        "content" : "Climate Change has Arrived"
+    }
+
+]
+
+
+}

@@ -1,0 +1,31 @@
+{
+    "profile" : [
+        {
+            "email" : "C.Flux@uea.ac.uk",
+            "name" : "Charlie Flux",
+            "idName" : "left",
+            "imageSource"  : "charlie-picture2.JPG",
+            "imageAlt" : "Charlie Flux's profile image",
+            "personalDescription" : "Charlie may appear to be accomplishing things, but much of it is due to chance."
+            
+        },
+        {
+            "email" : "Arthur.Clarke@uea.ac.uk",
+            "name" : "Arthur Clarke",
+            "idName" : "arthur",
+            "imageSource"  : "arthur-profile.jpg",
+            "imageAlt" : "Arthur Clarke's profile image",
+            "personalDescription" : "Arthur is an 18 year old video games enthusiast, perfectionist and enjoys coding. \nHe is gifted with the Sight, cannot be killed with conventional weapons, and should not be allowed to write short bios about himself."
+        },
+        {
+            "email" : "L.Young@uea.ac.uk",
+            "name" : "Lily Young",
+            "idName" : "right",
+            "imageSource"  : "lily-profile.jpg",
+            "imageAlt" : "Lily Young's profile image",
+            "personalDescription" : "Lily is 19 years old. She likes people, places and things."
+        }
+    ]
+
+    
+}

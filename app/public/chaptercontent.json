@@ -1,0 +1,68 @@
+{
+    "overallProgress" : [
+        {
+            "imageSource" : "Strategy.jpg",
+            "h1Text" : "UK's Strategy",
+            "content" : "The UK government has detailed a large set of policies to ensure each economic sector will assist with a 'Net Zero Strategy'. Development of technology will be at the forefront of the strategy, which could be far more expensive and risky than other methods. It also avoids benefits such as reducing air pollution and the effect that will have on health, by not including anything to do with aeroplane travel. Instead, focus is on decreasing sales of cars powered by fossil fuels, and improving energy efficiency of as many homes as possible to reduce overall usage. More trees are intended to be planted, as well as removal of greenhouse gases from methods such as carbon capture."
+        },
+        {
+            "imageSource" : "Progress.jpg",
+            "h1Text" : "Progress",
+            "content" : "Both territorial (within the UK or caused directly by international shipping from UK) and consumption (production and transport of products/services used by UK households) emissions have been decreasing in recent years. It's important to note that the recent pandemic was a major cause of a large dip in 2020, and the emissions have had a slight rebound in 2021. The past 2 years have shown a total emission that is fairly close to the governmental targets. Many goals, such as implementation of wind and solar farms are currently on track with the goals set out. However, many targets in land use/agriculture are significantly off where they should be. "
+        },
+        {
+            "imageSource" : "Assessment.jpg",
+            "h1Text" : "Assessment of plans",
+            "content" : "Weighing up the risks of the current UK plans, using current progress and future objective, gives a varied mixed view. Roughly 39% of the required emission reduction has strong plans with a low risk, due to already having funding and achievable timelines. This includes renewable electricity and reduction of vehicle emissions. 24% of the emissions are more at risk, with more policies and funding needed to ensure implementation. Unfortunately, there's significant risks with 33% of emissions, with almost 5% of emissions completely without plans. There's too few policies implemented to fully deliver the goal in the decade currently. This will likely need to occur in the next year in order to ensure the changes can be implemented."
+        }
+
+    ],
+
+    "crossCuttingIssues" : [
+        {
+            "imageSource" : "Government.jpg",
+            "h1Text" : "Government Role",
+            "content" : "There is a clear requirement for the government to take an active role in order to reach the required targets. Clear responsibilities must be decided on the path to reaching Net Zero. In addition, government policies must clearly embed climate goals within key papers. To add to this point, the government should monitor the delivery of the goals closely, and publicly make any and all progress visible. While all of this is mostly targeted at the UK government as an entity, there should be a greater effort to integrate local governments and advise and communicate on steps that should be taken to ensure delivery is smooth on a local level."
+
+        },
+        {
+            "imageSource" : "Public.jpg",
+            "h1Text" : "Public Engagement",
+            "content" : "Attaining the goal of Net Zero by 2035 requires consumer choices to shift, with electric cars and other low-carbon technology being vital to reducing emissions. Many choices by the public can aid the target goals, and public concern about climate change is steadily increasing. However, awareness on how to tangibly make a change is far lower, and more engagement needs to occur on the governments' side. Luckily, the UK Government's strategy addressed this need for increasing awareness of appropriate action for the public. On the other hand, it's unclear how the government intends to achieve this commitment, and action needs to occur quickly while public interest is still high."
+        },
+        {
+            "imageSource" : "Assessment.jpg",
+            "h1Text" : "Affordability",
+            "content" : "Funding for policies surrounding the Net Zero strategy will have a high cost for multiple parties. It's likely that many households will incur costs from the switch to low carbon heating (insulation, double glazing etc.), however switching to electric cars should eventually lead to a reduction of costs. It's unclear how fair the distribution will be as this will depend on how the policies are implemented. There are measures that could both support decarbonisation and help the cost-of-living crisis simultaneously and the government should focus on those methods first. Supporting renewable energy sources over fossil fuels should also be more affordable in the long run, as it ensures a secure source of energy without relying on the ever-shifting price of fossil fuels imported from overseas."
+        }
+    ],
+
+    "globalPicture" : [
+        {
+            "imageSource" : "Ukraine.jpg",
+            "h1Text" : "Ukraine",
+            "content1" : "The recent war in Ukraine has caused a shift in the Global energy market, as many EU members, as well as the UK and the US, have begun reducing the amount of fossil fuels exported out of Russia. Long-term effects are hard to predict as certain responses cause an increase in emissions, and others cause the reverse.",
+            "content2" : "The war has caused fossil fuel prices to rapidly rise, which has led renewable power sources to be seen as far more cost-effective. This has increased consumer demand for a faster implementation of renewable power sources. Some countries are also attempting to reduce energy costs by reducing usage overall by reducing the amount of central heating within homes and encouraging public transport.",
+            "content3" : "However, the rising energy prices have also encouraged reliance on existing fossil fuel sources within countries, which can lead to an increase of emissions rather than a decrease."
+        },
+        {
+            "imageSource" : "ClimateChange.jpeg",
+            "h1Text" : "Climate Change",
+            "content1" : "It's unequivocally true that human activity is causing unprecedented warming of the climate, and in some cases irreversibly changing it. The global surface temperatures from 1970 to 2019 have increased at a much faster rate than any other period in the last 2,000 years.",
+            "content2" : "his has caused extreme weather events such as droughts and heatwaves to increase in both intensity and frequency, in correlation with the human influence on global warming.These weather events have already caused vast damage to ecosystems, which will become even harsher at higher global temperatures. Currently, action taken globally does not reach the heights needed to minimise the effect of future climate events. The lack of financial support for action is one of the largest barriers globally. ",
+            "content3" : ""
+        },
+        {
+            "imageSource" : "Policy.jpg",
+            "h1Text" : "Climate Policy",
+            "content1" : "COP26 allowed progress to be made, in the form of climate policy. The Glasgow Climate Pact outlines the drastic impacts that 1.5°C warming will have on the world, and therefore aims to avoid this by reducing CO2 emissions by 45%, from 2010 to 2030. This is roughly halving the current level of emissions. It reinforces the Paris Agreement targets, and encourages the reduction and removal of fossil fuel subsidies, to discourage usage.",
+            "content2" : "However, while negotiations on the implementation of the Paris Agreement have been concluded, it appears that many countries will fall short of their goals by current projections. Climate Action Tracker has discovered that 11 countries, responsible for almost 50% of global CO2 emissions, do not have targets that will reach the Paris Agreement temperature goals, even if they achieve their targets. Further action needs to be taken to ensure warming does not reach 1.5°C.",
+            "content3" : ""
+        }
+    ]
+}
+
+
+                  
+                
+            
